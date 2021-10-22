@@ -1,0 +1,17 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "eslint.options": {
+        "--ext": ".js", 
+        "--ignore-path": ".gitignore"
+      },
+      "eslint.validate": ["typescript"],
+      "eslint.enable": true,
+      "eslint.probe": [
+        "javascript",
+        "typescript",
+        "html",
+        "markdown"
+      ]
+}
